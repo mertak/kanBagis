@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @bagisci.name %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%= @bagisci.lastname %>
+</p>
+
+<p>
+  <b>Tcno:</b>
+  <%= @bagisci.tcno %>
+</p>
+
+<p>
+  <b>Kangrubu:</b>
+  <%= @bagisci.kanGrubu %>
+</p>
+
+<p>
+  <b>Bagiszaman:</b>
+  <%= @bagisci.bagiszaman %>
+</p>
+
+
+<%= link_to 'Edit', edit_bagisci_path(@bagisci) %> |
+<%= link_to 'Back', bagiscis_path %>

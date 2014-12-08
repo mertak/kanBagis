@@ -1,0 +1,2 @@
+module BagiscisHelper
+end

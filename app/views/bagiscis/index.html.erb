@@ -1,0 +1,31 @@
+<h1>Listing bagiscis</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Lastname</th>
+    <th>Tcno</th>
+    <th>Kangrubu</th>
+    <th>Bagiszaman</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bagiscis.each do |bagisci| %>
+  <tr>
+    <td><%= bagisci.name %></td>
+    <td><%= bagisci.lastname %></td>
+    <td><%= bagisci.tcno %></td>
+    <td><%= bagisci.kanGrubu %></td>
+    <td><%= bagisci.bagiszaman %></td>
+    <td><%= link_to 'Show', bagisci %></td>
+    <td><%= link_to 'Edit', edit_bagisci_path(bagisci) %></td>
+    <td><%= link_to 'Destroy', bagisci, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bagisci', new_bagisci_path %>
