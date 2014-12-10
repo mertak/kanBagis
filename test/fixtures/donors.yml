@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  lastname: MyString
+  bloodGroup: MyString
+  bloodType: MyString
+  tcNo: 1
+  location: MyString
+  donateTime: 2014-12-10
+  tel: 1
+
+two:
+  name: MyString
+  lastname: MyString
+  bloodGroup: MyString
+  bloodType: MyString
+  tcNo: 1
+  location: MyString
+  donateTime: 2014-12-10
+  tel: 1

@@ -11,14 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141208094711) do
+ActiveRecord::Schema.define(:version => 20141210154536) do
 
-  create_table "bagiscis", :force => true do |t|
+  create_table "donors", :force => true do |t|
     t.string   "name"
     t.string   "lastname"
-    t.integer  "tcno"
-    t.string   "kanGrubu"
-    t.datetime "bagiszaman"
+    t.string   "bloodGroup"
+    t.string   "bloodType"
+    t.integer  "tcNo"
+    t.string   "location"
+    t.date     "donateTime"
+    t.integer  "tel"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

@@ -506,3 +506,1155 @@ Served asset /rails.png - 200 OK (0ms)
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-08 23:51:22 +0200
 Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-08 23:58:36 +0200
+Connecting to database specified by database.yml
+Processing by BagiscisController#index as HTML
+  [1m[36mBagisci Load (0.2ms)[0m  [1mSELECT "bagiscis".* FROM "bagiscis" [0m
+  Rendered bagiscis/index.html.erb within layouts/application (34.8ms)
+Compiled bootstrap_and_overrides.css  (1040ms)  (pid 9965)
+Compiled application.css  (1048ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (1ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 9965)
+Compiled twitter/bootstrap.js  (266ms)  (pid 9965)
+Compiled bootstrap.js  (141ms)  (pid 9965)
+Compiled application.js  (442ms)  (pid 9965)
+Completed 200 OK in 1909.3ms (Views: 1801.4ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /application.css - 200 OK (19ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/bagiscis.css?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /bagiscis.css - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /twitter/bootstrap.js - 200 OK (30ms)
+
+
+Started GET "/assets/bagiscis.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /bagiscis.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-12-08 23:58:39 +0200
+Served asset /favicon.ico - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicon.ico"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/path1" for 127.0.0.1 at 2014-12-08 23:58:51 +0200
+
+ActionController::RoutingError (No route matches [GET] "/path1"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-09 00:00:27 +0200
+Connecting to database specified by database.yml
+Processing by BagiscisController#index as HTML
+  [1m[36mBagisci Load (0.2ms)[0m  [1mSELECT "bagiscis".* FROM "bagiscis" [0m
+  Rendered bagiscis/index.html.erb within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 418.5ms
+
+ActionView::Template::Error (Unrecognised input
+  (in /home/mertak/rails/kanBagis/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    13:     <![endif]-->
+    14: 
+    15:     <%= stylesheet_link_tag "application", :media => "all" %>
+    16: 
+    17:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    18:     <!-- Size should be 144 x 144 pixels -->
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__132282957_72612960'
+  app/controllers/bagiscis_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-09 00:00:29 +0200
+Processing by BagiscisController#index as HTML
+  [1m[35mBagisci Load (0.4ms)[0m  SELECT "bagiscis".* FROM "bagiscis" 
+  Rendered bagiscis/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 168.2ms
+
+ActionView::Template::Error (Unrecognised input
+  (in /home/mertak/rails/kanBagis/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    13:     <![endif]-->
+    14: 
+    15:     <%= stylesheet_link_tag "application", :media => "all" %>
+    16: 
+    17:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    18:     <!-- Size should be 144 x 144 pixels -->
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__132282957_72612960'
+  app/controllers/bagiscis_controller.rb:7:in `index'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-09 00:01:24 +0200
+Connecting to database specified by database.yml
+Processing by BagiscisController#index as HTML
+  [1m[36mBagisci Load (0.1ms)[0m  [1mSELECT "bagiscis".* FROM "bagiscis" [0m
+  Rendered bagiscis/index.html.erb within layouts/application (27.4ms)
+Compiled bootstrap_and_overrides.css  (799ms)  (pid 10088)
+Compiled application.css  (2ms)  (pid 10088)
+Completed 200 OK in 991.2ms (Views: 936.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/bagiscis.css?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /bagiscis.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bagiscis.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /bagiscis.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:01:26 +0200
+Served asset /application.js - 304 Not Modified (25ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-09 00:03:00 +0200
+Connecting to database specified by database.yml
+Processing by BagiscisController#index as HTML
+  [1m[36mBagisci Load (0.1ms)[0m  [1mSELECT "bagiscis".* FROM "bagiscis" [0m
+  Rendered bagiscis/index.html.erb within layouts/application (101.9ms)
+Completed 200 OK in 221.8ms (Views: 167.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bagiscis.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /bagiscis.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bagiscis.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /bagiscis.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:01 +0200
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/bagiscis/new" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Processing by BagiscisController#new as HTML
+  Rendered bagiscis/_form.html.erb (13.6ms)
+  Rendered bagiscis/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 31.5ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bagiscis.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /bagiscis.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bagiscis.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /bagiscis.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:15 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/bagiscis" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Processing by BagiscisController#index as HTML
+  [1m[35mBagisci Load (0.3ms)[0m  SELECT "bagiscis".* FROM "bagiscis" 
+  Rendered bagiscis/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 21.3ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bagiscis.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /bagiscis.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bagiscis.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /bagiscis.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:03:18 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-12-09 00:05:45 +0200
+Served asset /favicon.ico - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicon.ico"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-10 17:35:05 +0200
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (11ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-10 17:35:06 +0200
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/donor" for 127.0.0.1 at 2014-12-10 17:35:10 +0200
+
+ActionController::RoutingError (No route matches [GET] "/donor"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.4ms)
+
+
+Started GET "/donors" for 127.0.0.1 at 2014-12-10 17:35:12 +0200
+
+ActionController::RoutingError (No route matches [GET] "/donors"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Connecting to database specified by database.yml
+  [1m[36m (11.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (327.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (99.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (2.7ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateDonors (20141208224037)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (139.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (133.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (2.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateDonors (20141208224037)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.9ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (104.2ms)[0m  CREATE TABLE "bagiscis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "tcno" integer, "kanGrubu" varchar(255), "bagiszaman" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (99.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (111.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (111.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141208094711')
+  [1m[36m (2.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141208224037)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (134.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (133.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (2.8ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateDonors (20141208224037)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "donors" has more than one primary key: CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "donateTime" date, "address" text, "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to ChangeColumn (20141208224907)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDonors (20141210154536)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "donors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lastname" varchar(255), "bloodGroup" varchar(255), "bloodType" varchar(255), "tcNo" integer, "location" varchar(255), "donateTime" date, "tel" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20141210154536')[0m
+  [1m[35m (169.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/donors" for 127.0.0.1 at 2014-12-10 17:47:25 +0200
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/donors"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.5ms)
+
+
+Started GET "/donor" for 127.0.0.1 at 2014-12-10 17:47:30 +0200
+
+ActionController::RoutingError (No route matches [GET] "/donor"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/donors" for 127.0.0.1 at 2014-12-10 17:53:51 +0200
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/donors"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/donors" for 127.0.0.1 at 2014-12-10 18:06:57 +0200
+Connecting to database specified by database.yml
+Processing by DonorsController#index as HTML
+  Rendered donors/index.html.erb within layouts/application (2.9ms)
+Warning. Error encountered while saving cache /home/mertak/rails/kanBagis/tmp/cache/sass/2c58abbdb0b0e802a75ced31019974c465d50caf/donors.css.scssc: can't dump anonymous class #<Class:0xa9f973c>
+Compiled donors.css  (23ms)  (pid 5768)
+Compiled application.css  (61ms)  (pid 5768)
+Compiled donors.js  (71ms)  (pid 5768)
+Compiled application.js  (125ms)  (pid 5768)
+Completed 200 OK in 578.9ms (Views: 578.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donors.css?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /donors.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/donors.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /donors.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-12-10 18:06:58 +0200
+Served asset /favicon.ico - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicon.ico"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:32:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:22:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:16:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:63:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:484:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:231:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/donors" for 127.0.0.1 at 2014-12-10 18:11:23 +0200
+Connecting to database specified by database.yml
+Processing by DonorsController#index as HTML
+  Rendered donors/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 65.2ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-10 18:11:24 +0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
