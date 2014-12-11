@@ -2,7 +2,7 @@ KanBagis::Application.routes.draw do
   
   get '/donors', to: 'donors#index'
   resources :donors
-  
+  get 'signup' => 'donors#new'  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

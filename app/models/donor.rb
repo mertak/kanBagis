@@ -8,8 +8,9 @@ class Donor < ActiveRecord::Base
     too_long: "must have at most %{count} chars"}, presence: true
   validates :tcNo, length: {is: 11,
      too_long: "must have %{count} chars",
-     too_short: "must have %{count} chars"}, presence: true, numericality: { only_integer: true }
+     too_short: "must have %{count} chars"}, presence: true, numericality: { only_integer: true }, uniqueness: true
   validates :tel, length: {is: 10, 
      too_long: "must have %{count} chars",
-     too_short: "must have %{count} chars"}, presence: true, numericality: { only_integer: true }
+     too_short: "must have %{count} chars"}, presence: true, numericality: { only_integer: true }, uniqueness: true
 end
+
