@@ -14,6 +14,7 @@ def show
       redirect_to @donor
     else
       render 'new'
+      flash[:error] = "Bagisci olusturulamadi"
     end
   end
 end
