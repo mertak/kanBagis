@@ -1,5 +1,5 @@
 <% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
+<h1>Kaydol</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -13,15 +13,16 @@
       <%= f.text_field :lastname , class: 'form-control'%>
 
       <%= f.label :Sifre, "Şifre" %>
-      <%= f.password_field :password, class: 'form-control'%>
-      <span class='help-block'> Minimum 6 karakter </span>
- 
+      <%= f.password_field :password, :placeholder =>"Minimum 6 karakter",
+                           class: 'form-control'%>
+      
       <%= f.label :passwd_confirmation, "Şifre Doğrulama" %>
       <%= f.password_field :password_confirmation, class: 'form-control'%>
  
       <%= f.label :Tel %>
-      <%= f.phone_field :tel , class: 'form-control'%>
-      
+      <%= f.phone_field :tel, :placeholder =>"0 yazmadan giriniz!",
+                        class: 'form-control'%>
+
       <%= f.label :TCNo, "TC Kimlik Numarası" %>
       <%= f.text_field :tcNo , class: 'form-control'%>
       
@@ -38,8 +39,8 @@
 				 ),class: 'form-control'%>
       
       <%= f.label :KanTürü, "Kan Türü" %>
-      <%= f.select :bloodType , ([['afarez'],
-				 ['standart']]
+      <%= f.select :bloodType , ([['Afarez'],
+				 ['Standart']]
 				 ),class: 'form-control'%>
 
       <%= f.label :Yer %>
@@ -51,10 +52,9 @@
                         :start_year => Date.current.year, :end_year => 1920,
                         class: 'form-control'%>
 
-    
-      <p> <%= f.submit "Bagisci olustur.", class: "btn btn-primary" %></p>
+      <p> <%= f.submit "Bagisci olustur", class: "btn btn-success" %></p>
+
     <% end %>
     </p>
   </div>
 </div>
-

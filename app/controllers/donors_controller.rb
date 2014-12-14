@@ -11,6 +11,8 @@ def show
     @donor = Donor.new(params[:donor])   
  
     if @donor.save
+      log_in @donor
+      flash[:success] = "Tebrikler, bagisci profiliniz olusturuldu!"
       redirect_to @donor
     else
       render 'new'
