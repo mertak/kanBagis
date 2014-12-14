@@ -5,20 +5,27 @@
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(@donor) do |f| %>
       <%= render 'shared/error_messages' %>
-      <p>
-      <%= f.label :isim %>
+      
+      <%= f.label :isim, "İsim" %>
       <%= f.text_field :name, class: 'form-control' %>
       
-      <%= f.label :soyisim %>
+      <%= f.label :Soyisim %>
       <%= f.text_field :lastname , class: 'form-control'%>
-   
-      <%= f.label :tel %>
-      <%= f.text_field :tel , class: 'form-control'%>
+
+      <%= f.label :Sifre, "Şifre" %>
+      <%= f.password_field :password, class: 'form-control'%>
+      <span class='help-block'> Minimum 6 karakter </span>
+ 
+      <%= f.label :passwd_confirmation, "Şifre Doğrulama" %>
+      <%= f.password_field :password_confirmation, class: 'form-control'%>
+ 
+      <%= f.label :Tel %>
+      <%= f.phone_field :tel , class: 'form-control'%>
       
-      <%= f.label :TCNo %>
+      <%= f.label :TCNo, "TC Kimlik Numarası" %>
       <%= f.text_field :tcNo , class: 'form-control'%>
       
-      <%= f.label :KanGrubu %>
+      <%= f.label :KanGrubu, "Kan Grubu" %>
       <%= f.select :bloodGroup,( [['A RH+'],
                                  ['A RH-'], 
                                  ['B RH+'], 
@@ -30,7 +37,7 @@
 	         		 ] 
 				 ),class: 'form-control'%>
       
-      <%= f.label :KanTürü %>
+      <%= f.label :KanTürü, "Kan Türü" %>
       <%= f.select :bloodType , ([['afarez'],
 				 ['standart']]
 				 ),class: 'form-control'%>
@@ -38,11 +45,14 @@
       <%= f.label :Yer %>
       <%= f.text_field :location , class: 'form-control'%>
 
-      <%= f.label :BagisZamani %>
-      <%= f.text_field :donateTime , class: 'form-control'%>
+      <%= f.label :BagisZamani, "Son Bağış Zamanı" %>
+      <%= f.date_select :donateTime,
+                         use_month_numbers: true, prompt: { day: 'Gün', month: 'Ay', year: 'Yıl' },
+                        :start_year => Date.current.year, :end_year => 1920,
+                        class: 'form-control'%>
 
-    <p>
-      <%= f.submit "Create a donor account", class: "btn btn-primary" %>
+    
+      <p> <%= f.submit "Bagisci olustur.", class: "btn btn-primary" %></p>
     <% end %>
     </p>
   </div>
