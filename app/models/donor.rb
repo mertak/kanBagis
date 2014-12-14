@@ -1,5 +1,5 @@
 class Donor < ActiveRecord::Base
-  attr_accessible :bloodGroup, :bloodType, :donateTime, :lastname, :location, :name, :tcNo, :tel
+  attr_accessible :bloodGroup, :bloodType, :donateTime, :lastname, :location, :name, :tcNo, :tel, :password, :password_confirmation
   validates :name, length: {maximum: 50,
    too_long: "must have at most %{count} chars"}, presence: true
   validates :lastname, length: {maximum: 50,
@@ -12,5 +12,9 @@ class Donor < ActiveRecord::Base
   validates :tel, length: {is: 10, 
      too_long: "must have %{count} chars",
      too_short: "must have %{count} chars"}, presence: true, numericality: { only_integer: true }, uniqueness: true
+  
+  has_secure_password
+  validates :password, length: { minimum: 6 }
+
 end
 

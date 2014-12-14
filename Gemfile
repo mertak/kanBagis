@@ -5,6 +5,7 @@ gem "less-rails"
 gem 'rails', '3.2.16'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
+gem 'bcrypt'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

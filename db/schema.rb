@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141210154536) do
+ActiveRecord::Schema.define(:version => 20141214002019) do
 
   create_table "donors", :force => true do |t|
     t.string   "name"
@@ -22,8 +22,11 @@ ActiveRecord::Schema.define(:version => 20141210154536) do
     t.string   "location"
     t.date     "donateTime"
     t.integer  "tel"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.string   "password_digest"
+    t.string   "password"
+    t.string   "password_digst"
   end
 
 end
