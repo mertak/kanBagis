@@ -1,7 +1,7 @@
 KanBagis::Application.routes.draw do
   
+  root :to =>  'donors#index'
   get "sessions/new"
-
   get '/donors', to: 'donors#index'
   get 'signup' => 'donors#new'  
   get 'login' => 'sessions#new'

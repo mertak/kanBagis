@@ -8,13 +8,14 @@ class SessionsController < ApplicationController
       log_in donor
       redirect_to donor
     else
-      flash.now[:danger] = 'Yanlis TCNo/Sifre!'
       render 'new'
+      flash[:error] = 'Yanlis TCNo/Sifre!'
     end
   end
 
   def destroy
     log_out if logged_in?
+    flash[:notice] = "Cikis yaptiniz."
     redirect_to root_url
   end
 

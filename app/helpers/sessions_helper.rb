@@ -5,11 +5,11 @@ module SessionsHelper
   end
 
   def current_donor
-    @current_donor ||= Donor.find_by(id: session[donor_id])
+    @current_donor ||= Donor.where(id: session[:donor_id]).first
   end
 
   def logged_in?
-    !@current_donor.nil?
+    !current_donor.nil?
   end
 
   def log_out

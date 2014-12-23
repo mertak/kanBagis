@@ -49,20 +49,24 @@
           <a class="brand" href="/">KanBagis</a>
             <div class="collapse nav-collapse">
               <ul class="nav">
-                <li><%= link_to "Login", "/login"  %></li>
-                <li><%= link_to "Sign up", "/donors/new"  %></li>
-                <div class="btn-group">
+                
+                <% if logged_in? %>
+                  <div class="btn-group">
                   <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-                  Dropdown <span class="caret"></span>
+                  Hesap <span class="caret"></span>
                   </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
+                <li><%= link_to "Profil", current_donor %></li>
+                <li><%= link_to "Ayarlar", '#' %></a></li>
                 <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li><%= link_to "Cikis Yap", logout_path, method:"delete" %></li>
+            <% else %>
+              <li><%= link_to "Giriş Yap", "/login"  %></li>
+              <li><%= link_to "Kaydol", "/donors/new"  %></li>
 	      </ul>
 	    </div>
+            <% end %>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

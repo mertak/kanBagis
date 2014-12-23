@@ -1,5 +1,6 @@
 class DonorsController < ApplicationController
-def show
+
+  def show
     @donor = Donor.find(params[:id])
   end
 
@@ -19,4 +20,5 @@ def show
       flash[:error] = "Bagisci olusturulamadi"
     end
   end
+
 end
