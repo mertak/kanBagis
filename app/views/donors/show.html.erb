@@ -30,9 +30,10 @@
 <strong> Kan Verme Tarihi:</strong>
 <%= @donor.donateTime %>
 </p>
+
 <nav>
   <ul class="pager">
-    <li><a href="/donors/<%= p (@donor.id - 1) unless @donor.id == 1 %>">Previous</a></li>
-    <li><a href="/donors/<%= p (@donor.id + 1) if @donor.id < Donor.count  %>">Next</a></li>
+    <li><a href="/donors/<%= p (@donor.id - 1) unless @donor.id == 1 %>">Onceki</a></li>
+    <li><a href="/donors/<%= p (@donor.id + 1) if @donor.id < Donor.count  %>">Sonraki</a></li>
   </ul>
 </nav>

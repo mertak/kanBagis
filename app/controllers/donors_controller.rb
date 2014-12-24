@@ -21,4 +21,17 @@ class DonorsController < ApplicationController
     end
   end
 
+  def edit
+    @donor = Donor.find(params[:id])
+  end
+
+  def update
+        @donor = Donor.find(params[:id])
+    if @donor.update_attributes(params[:donor])
+      # Handle a successful update.
+    else
+      render 'edit'
+    end
+  end
+
 end
