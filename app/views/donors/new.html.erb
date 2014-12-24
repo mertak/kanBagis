@@ -6,27 +6,27 @@
     <%= form_for(@donor) do |f| %>
       <%= render 'shared/error_messages' %>
       
-      <%= f.label :isim, "İsim" %>
+      <%= f.label "İsim" %>
       <%= f.text_field :name, class: 'form-control' %>
       
       <%= f.label :Soyisim %>
       <%= f.text_field :lastname , class: 'form-control'%>
 
-      <%= f.label :Sifre, "Şifre" %>
+      <%= f.label "Şifre" %>
       <%= f.password_field :password, :placeholder =>"Minimum 6 karakter",
                            class: 'form-control'%>
       
-      <%= f.label :passwd_confirmation, "Şifre Doğrulama" %>
+      <%= f.label "Şifre Doğrulama" %>
       <%= f.password_field :password_confirmation, class: 'form-control'%>
  
       <%= f.label :Tel %>
       <%= f.phone_field :tel, :placeholder =>"0 yazmadan giriniz!",
                         class: 'form-control'%>
 
-      <%= f.label :TCNo, "TC Kimlik Numarası" %>
+      <%= f.label "TC Kimlik Numarası" %>
       <%= f.text_field :tcNo , class: 'form-control'%>
       
-      <%= f.label :KanGrubu, "Kan Grubu" %>
+      <%= f.label "Kan Grubu" %>
       <%= f.select :bloodGroup,( [['A RH+'],
                                  ['A RH-'], 
                                  ['B RH+'], 
@@ -38,7 +38,7 @@
 	         		 ] 
 				 ),class: 'form-control'%>
       
-      <%= f.label :KanTürü, "Kan Türü" %>
+      <%= f.label "Kan Türü" %>
       <%= f.select :bloodType , ([['Afarez'],
 				 ['Standart']]
 				 ),class: 'form-control'%>
@@ -46,13 +46,13 @@
       <%= f.label :Yer %>
       <%= f.text_field :location , class: 'form-control'%>
 
-      <%= f.label :BagisZamani, "Son Bağış Zamanı" %>
+      <%= f.label "Son Bağış Zamanı" %>
       <%= f.date_select :donateTime,
                          use_month_numbers: true, prompt: { day: 'Gün', month: 'Ay', year: 'Yıl' },
                         :start_year => Date.current.year, :end_year => 1920,
                         class: 'form-control'%>
 
-      <p> <%= f.submit "Bagisci olustur", class: "btn btn-success" %></p>
+      <p> <%= f.submit "Bağışcı oluştur", class: "btn btn-success" %></p>
 
     <% end %>
     </p>

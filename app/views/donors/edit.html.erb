@@ -1,31 +1,56 @@
 <% provide(:title, "Ayarlar") %>
-<h1>Bilgilerinizi Guncelleyin</h1>
+
+<h2>Bilgilerinizi Güncelleyin</h2>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
+    <p>
     <%= form_for(@donor) do |f| %>
       <%= render 'shared/error_messages' %>
-
-      <%= f.label :name, "İsim" %>
+      
+      <%= f.label "İsim" %>
       <%= f.text_field :name, class: 'form-control' %>
+      
+      <%= f.label :Soyisim %>
+      <%= f.text_field :lastname , class: 'form-control'%>
 
-      <%= f.label :lastname, "Soyisim" %>
-      <%= f.text_field :lastname, class: 'form-control' %>
+      <%= f.label "Şifre" %>
+      <%= f.password_field :password, :placeholder =>"Minimum 6 karakter",
+                           class: 'form-control'%>
+      
+      <%= f.label :Tel %>
+      <%= f.phone_field :tel, :placeholder =>"0 yazmadan giriniz!",
+                        class: 'form-control'%>
 
-      <%= f.label :password, "Şifre" %>
-      <%= f.password_field :password, class: 'form-control' %>
+      <%= f.label  "Kan Grubu" %>
+      <%= f.select :bloodGroup,( [['A RH+'],
+                                 ['A RH-'], 
+                                 ['B RH+'], 
+                                 ['B RH -'], 
+                                 ['AB RH+'], 
+                                 ['AB RH-'], 
+                                 ['0 RH+'], 
+                                 ['0 RH-'],
+	         		 ] 
+				 ),class: 'form-control'%>
+      
+      <%= f.label "Kan Türü" %>
+      <%= f.select :bloodType , ([['Afarez'],
+				 ['Standart']]
+				 ),class: 'form-control'%>
 
-      <%= f.label :password_confirmation, "Şifre Doğrulama" %>
-      <%= f.password_field :password_confirmation, class: 'form-control' %>
+      <%= f.label :Yer %>
+      <%= f.text_field :location , class: 'form-control'%>
 
-      <%= f.label :name, "İsim" %>
-      <%= f.text_field :name, class: 'form-control' %>
-
-      <%= f.label :lastname, "Soyisim" %>
-      <%= f.text_field :lastname, class: 'form-control' %>
+      <%= f.label "Son Bağış Zamanı" %>
+      <%= f.date_select :donateTime,
+                         use_month_numbers: true, prompt: { day: 'Gün', month: 'Ay', year: 'Yıl' },
+                        :start_year => Date.current.year, :end_year => 1920,
+                        class: 'form-control'%>
 
       <%= f.submit "Kaydet", class: "btn btn-primary" %>
-    <% end %>
 
+    <% end %>
+  </p>
   </div>
 </div>
