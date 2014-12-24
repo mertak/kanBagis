@@ -8,8 +8,8 @@ class SessionsController < ApplicationController
       log_in donor
       redirect_to donor
     else
-      render 'new'
       flash[:error] = 'Yanlis TCNo/Sifre!'
+      render 'new'
     end
   end
 
