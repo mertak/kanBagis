@@ -1,14 +1,15 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
   include SessionsHelper
+  protect_from_forgery
 
-
+  before_filter :require_login
+  skip_before_filter :require_login, only: [:index,:new, :create]
   private
  
   def require_login
     unless logged_in?
-      flash[:error] = "You must be logged in to access this section"
-      redirect_to signup_path 
+      flash[:error] = "Buraya erisebilmek icin giris yapmaniz gerekiyor."
+      redirect_to login_path 
     end
   end
 
