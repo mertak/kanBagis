@@ -31,9 +31,17 @@
 <%= @donor.donateTime %>
 </p>
 
+<% if admin_logged_in? %>
 <nav>
   <ul class="pager">
     <li><a href="/donors/<%= p (@donor.id - 1) unless @donor.id == 1 %>">Onceki</a></li>
     <li><a href="/donors/<%= p (@donor.id + 1) if @donor.id < Donor.count  %>">Sonraki</a></li>
   </ul>
 </nav>
+<% end %>
+
+<% if logged_in? %>
+  <% unless @current_donor.donateTime > 3.months.ago %>
+   <%= flash.now[:notice] = "3 ay doldu." %>
+  <% end %>
+<% end %>

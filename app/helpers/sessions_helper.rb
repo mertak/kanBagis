@@ -5,7 +5,7 @@ module SessionsHelper
   end
 
   def current_donor
-    @current_donor ||= Donor.where(id: session[:donor_id]).first
+    @current_donor ||= Donor.find_by(id: session[:donor_id])
   end
 
   def logged_in?

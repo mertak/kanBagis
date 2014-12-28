@@ -4,9 +4,9 @@ class SessionAdminsController < ApplicationController
   end
 
   def create
-    admin = Admin.where(email: params[:session][:email]).first
+    admin = Admin.find_by(email: params[:session][:email].downcase)
     if admin && admin.authenticate(params[:session][:password])
-      log_in admin
+      admin_log_in admin
       redirect_to admin
     else
       flash[:error] = 'Yanlis E-Posta/Sifre!'
@@ -15,7 +15,7 @@ class SessionAdminsController < ApplicationController
   end
 
   def destroy
-    log_out if logged_in?
+    admin_log_out if admin_logged_in?
     flash[:notice] = "Cikis yaptiniz."
     redirect_to root_url
   end

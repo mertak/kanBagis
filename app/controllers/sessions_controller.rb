@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    donor = Donor.where(tcNo: params[:session][:tcNo]).first
+    donor = Donor.find_by(tcNo: params[:session][:tcNo])
     if donor && donor.authenticate(params[:session][:password])
       log_in donor
       redirect_to donor

@@ -1,7 +1,7 @@
 class AdminsController < ApplicationController
 
   def show
-    @admin = Admin.find(admin_params)
+    @admin = Admin.find(params[:id])
   end
 
   def new
