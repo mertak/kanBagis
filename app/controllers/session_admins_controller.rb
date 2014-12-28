@@ -1,7 +1,10 @@
 class SessionAdminsController < ApplicationController
 
+  def new
+  end
+
   def create
-    admin = Admin.where(tcNo: params[:session][:tcNo]).first
+    admin = Admin.where(email: params[:session][:email]).first
     if admin && admin.authenticate(params[:session][:password])
       log_in admin
       redirect_to admin

@@ -1,1 +1,2 @@
 Ruby on Rails ile hazırlanmış basit bir kan bagis takip sistemi.
+Kötü pratiklerle dolu :(

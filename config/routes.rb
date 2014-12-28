@@ -10,8 +10,11 @@ Rails.application.routes.draw do
   resources :donors
 
   get 'admin', to: 'admins#index'
-  get 'adminsignup' => 'admins#new'
+  get 'admin/signup' => 'admins#new'
   get 'admins/:id' => 'admins#show'
+  get 'admin/login' => 'session_admins#new'
+  post 'admin/login' => 'session_admins#create'
+  delete 'admin/logout' => 'session_admins#destroy'
   resources :admins
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
