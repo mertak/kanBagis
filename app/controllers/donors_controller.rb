@@ -9,7 +9,7 @@ class DonorsController < ApplicationController
   end
 
   def create
-    @donor = Donor.new(params[:donor])   
+    @donor = Donor.new(donor_params)   
  
     if @donor.save
       log_in @donor
@@ -34,4 +34,7 @@ class DonorsController < ApplicationController
     end
   end
 
+ def donor_params
+    params.require(:donor).permit(:name, :lastname, :bloodGroup, :tel, :tcNo, :location, :bloodType, :donateTime, :password, :encrypted_password)
+  end
 end

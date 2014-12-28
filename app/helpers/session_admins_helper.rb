@@ -1,0 +1,2 @@
+module SessionAdminsHelper
+end

@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem "therubyracer"
 gem "less-rails"
 gem 'rails', '4.1.0'
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', '2.2.8'
 gem 'bootstrap-sass'
 gem 'bcrypt'
 

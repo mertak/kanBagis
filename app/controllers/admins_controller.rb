@@ -9,7 +9,7 @@ class AdminsController < ApplicationController
   end
 
   def create
-    @admin = Admin.new(params[:donor])   
+    @admin = Admin.new(admin_params)   
  
     if @admin.save
       log_in @admin
@@ -27,11 +27,14 @@ class AdminsController < ApplicationController
 
   def update
         @admin = Admin.find(params[:id])
-    if @admin.update_attributes(params[:donor])
+    if @admin.update_attributes(params[:admin])
       # Handle a successful update.
     else
       render 'edit'
     end
   end
 
+ def admin_params
+    params.require(:admin).permit(:name, :email, :password, :encrypted_password)
+  end
 end

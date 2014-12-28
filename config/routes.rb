@@ -9,8 +9,9 @@ Rails.application.routes.draw do
   delete 'logout' => 'sessions#destroy'
   resources :donors
 
-  get 'adminsignup' => 'admins#new'
   get 'admin', to: 'admins#index'
+  get 'adminsignup' => 'admins#new'
+  get 'admins/:id' => 'admins#show'
   resources :admins
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

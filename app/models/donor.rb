@@ -1,5 +1,4 @@
 class Donor < ActiveRecord::Base
-  attr_accessible :bloodGroup, :bloodType, :donateTime, :lastname, :location, :name, :tcNo, :tel, :password, :password_confirmation
   validates :name, length: {maximum: 50,
    too_long: "en fazla %{count} karakter olabilir"}, presence: true
   validates :lastname, length: {maximum: 50,
