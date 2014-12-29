@@ -27,8 +27,8 @@ class DonorsController < ApplicationController
 
   def update
         @donor = Donor.find(params[:id])
-    if @donor.update_attributes(params[:donor])
-      # Handle a successful update.
+    if @donor.update(donor_params)
+      redirect_to(@donor)
     else
       render 'edit'
     end

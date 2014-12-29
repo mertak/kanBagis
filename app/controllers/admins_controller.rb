@@ -1,5 +1,18 @@
 class AdminsController < ApplicationController
 
+before_filter :require_admin
+skip_before_filter :require_admin, only: [:index,:new, :create, :update]
+
+  def require_admin
+    unless admin_logged_in?
+      flash[:error] = "Bu kisima erisim icin admin girisi yapmak gerekir"
+      redirect_to "/admins/"
+    end
+  end
+
+  def panel
+  end
+
   def show
     @admin = Admin.find(params[:id])
   end
@@ -26,9 +39,9 @@ class AdminsController < ApplicationController
   end
 
   def update
-        @admin = Admin.find(params[:id])
-    if @admin.update_attributes(params[:admin])
-      # Handle a successful update.
+    @admin = Admin.find(params[:id])
+    if @admin.update_attributes(admin_params)
+      redirect_to(@admin)
     else
       render 'edit'
     end

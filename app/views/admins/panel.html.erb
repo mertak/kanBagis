@@ -1,0 +1,41 @@
+<h1>Admin Panel</h1>
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h4>Bagiscilar</h4></div>
+  <!-- Table -->
+  <table class="table-bordered">
+  <thead>
+    <tr>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Yer</th>
+      <th>Kan Grubu</th>
+      <th>Son Bagis</th>
+      <th>Kan Türü</th>
+      <th></th>
+    </tr>
+  </thead>
+    <tbody>
+    <% Donor.all.each do |donor| %>
+      <tr>
+        <td><%= donor.name %></td>
+        <td><%= donor.lastname %></td>
+        <td><%= donor.location %></td>
+        <td><%= donor.bloodGroup %></td>
+        <td><%= donor.donateTime %></td>
+        <td><%= donor.bloodType %></td>
+        <td><a href="/donors/<%= donor.id %>">Göster</a></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+<p></p>
+<div class="row">
+  <div class="input-group">
+    <span class="input-group-btn">
+      <button  class="btn btn-default" type="button">Action</button>
+    </span>
+    <input type="text" class="form-control" placeholder="Search for...">
+  </div><!-- /input-group -->
+</div>
