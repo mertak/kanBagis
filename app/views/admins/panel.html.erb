@@ -3,16 +3,16 @@
   <!-- Default panel contents -->
   <div class="panel-heading"><h4>Bagiscilar</h4></div>
   <!-- Table -->
-  <table class="table-bordered">
+  <div class="table-responsive">
+  <table id="myTable" class="display responsive table-hover table-bordered table-striped" width="100%">
   <thead>
     <tr>
-      <th>Ad</th>
-      <th>Soyad</th>
-      <th>Yer</th>
-      <th>Kan Grubu</th>
-      <th>Son Bagis</th>
-      <th>Kan Türü</th>
-      <th></th>
+      <td>Ad</td>
+      <td><a class="btn btn-small" href="#">Soyad</a></td>
+      <td><a class="btn btn-small" href="#">Yer</a></td>
+      <td><a class="btn btn-small" href="#">Kan Grubu</a></td>
+      <td><a class="btn btn-small" href="#">Son Bağış</a></td>
+      <td><a class="btn btn-small" href="#">Kan Türü</a></td>
     </tr>
   </thead>
     <tbody>
@@ -25,10 +25,23 @@
         <td><%= donor.donateTime %></td>
         <td><%= donor.bloodType %></td>
         <td><a href="/donors/<%= donor.id %>">Göster</a></td>
+        <td><a href="/donors/<%= donor.id %>/edit">Düzenle</a></td>
       </tr>
     <% end %>
+       <td>Ad</td>
+       <td>Soyad</td>
+       <td>Ankara</td>
+       <td>A Rh+</td>
+       <td>02/02/2014<td>
+       </tr>
+       <tr><td>Bd</td>
+       <td>Boyad</td>
+       <td>Snkara</td>
+       <td>Z Rh+</td>
+       <td>02/02/2014<td></tr>
     </tbody>
   </table>
+  </div>
 </div>
 <p></p>
 <div class="row">
@@ -39,3 +52,33 @@
     <input type="text" class="form-control" placeholder="Search for...">
   </div><!-- /input-group -->
 </div>
+
+<script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
+
+<script>
+$('.datatable').DataTable({
+  dom: "<'row-fluid'<'span6'l><'span6'f>r>t<'row-fluid'<'span6'i><'span6'p>>",
+  pagingType: "bootstrap"
+});
+</script>
+
+<script>
+$('#myTable').DataTable({
+  responsive: true
+});
+</script>
+
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" 
+href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" 
+src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" 
+src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link href="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript">
+<link href="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js" type="text/javascript">
