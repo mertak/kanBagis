@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem "therubyracer"
+gem 'therubyracer'
 gem "less-rails"
 gem 'rails', '4.1.0'
 gem 'twitter-bootstrap-rails', '2.2.8'
 gem 'bootstrap-sass'
 gem 'bcrypt'
-gem 'jquery-datatables-rails', '~> 3.1.1'
+gem 'jquery-datatables-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
