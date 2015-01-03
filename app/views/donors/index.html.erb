@@ -1,13 +1,29 @@
-<div class="page-header">
+<% provide(:title, "Ana Sayfa") %>
+<div class="container">
+  <div class="hero-unit">
   <h1>Kan Bağış Takip Sistemine Hoşgeldiniz!</h1>
+      <h5>Kan Bağış Takip Sistemi bağışçıların kan verme kayıtlarını tutan bir web uygulamasıdır. Bağışçılar için en yakın kan toplama birimi hakkında bilgiler verir.</h5>
+  </div>
 </div>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt odio non semper semper. Maecenas id arcu id nunc dapibus aliquam a et nulla. Donec lobortis, orci vel sagittis rutrum, lorem neque gravida magna, laoreet sollicitudin massa quam et elit. Sed elit erat, viverra a elit eu, cursus hendrerit purus. Vivamus faucibus elit ut nisi commodo, sed sodales magna dignissim. Mauris varius luctus ullamcorper. Integer sed lorem dapibus, scelerisque enim vel, aliquam velit.
-</p>
-<p>
-Suspendisse a dui id lorem sollicitudin condimentum. Duis porttitor sit amet elit et gravida. Quisque non venenatis lacus, eget maximus ipsum. Etiam vehicula magna leo, ut bibendum lorem dignissim quis. Ut maximus scelerisque urna fermentum ornare. Etiam maximus tortor hendrerit, bibendum purus ut, auctor lorem. Maecenas augue sapien, finibus et malesuada eget, sollicitudin vitae nunc. Duis aliquam nisl nisi, quis posuere quam auctor at. Cras nunc est, rutrum vitae orci at, tincidunt euismod nunc. Nulla ut molestie elit, non tempor lorem.
-</p>
-<% unless logged_in? or admin_logged_in? %>
-<p><a class="btn btn-primary btn-lg" href="/login" role="button">Giris Yap</a>
-   <a class="btn btn-default btn-lg" href="/donors/new" role="button">Kaydol</a></p>
-<% end %>
+
+<div class="row">
+	<% unless logged_in? or admin_logged_in? %>
+	<div class="span3">
+	  <h2>Bağışçı Ol</h2>
+	  <p>Sisteme kaydolarak, ihtiyaç halinde kan verme birimine davet edilmek üzere bilgilerinizi bırakabilirsiniz. Unutmayın ki her damla kan kurtarılan bir candır. </p>
+	  <p><a class="btn" href="/donors/new">Kaydol &raquo;</a></p>
+	</div><!--/span-->
+	<div class="span3">
+	  <h2>Giriş Yap</h2>
+	  <p>Daha önceden kaydolduysanız bilgilerinizi güncellemek, bağış geçmişinizi görüntülemek, üç aylık kan verme vadenizin dolup dolmadığını öğrenebilirsiniz. Kan verin, hayat kurtarın!</p>
+	  <p><a class="btn" href="/login">Giriş Yap &raquo;</a></p>
+	</div><!--/span-->
+	<div class="span3">
+	  <h2>Proje Hakkında</h2>
+	  <p>Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü öğrencileri, Mert Akkaya ve Salih Özdemir tarafından Yazılım Mühendisliği Laboratuvarı dersi kapsamında geliştirilmiştir. </p>
+	  <p><a class="btn" href="https://github.com/mertak/kanBagis">Kaynağı İncele &raquo;</a></p>
+	</div><!--/span-->
+	<% end %>
+</div><!--/row-->
+
+

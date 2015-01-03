@@ -1,8 +1,9 @@
-<% provide(:title, 'Sign up') %>
+<% provide(:title, 'Bağışçı Kaydı') %>
+<br><br><br>
 <h1>Kaydol</h1>
 
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+<div class="span4">
     <%= form_for(@donor) do |f| %>
       <%= render 'shared/error_messages' %>
       
@@ -26,6 +27,9 @@
       <%= f.label "TC Kimlik Numarası" %>
       <%= f.text_field :tcNo , class: 'form-control'%>
       
+</div>
+<div class="span4">
+
       <%= f.label "Kan Grubu" %>
       <%= f.select :bloodGroup,( [['A RH+'],
                                  ['A RH-'], 

@@ -1,4 +1,5 @@
-<% provide(:title, "Log in") %>
+<% provide(:title, "Giriş Yap") %>
+<br><br><br>
 <h1>Giriş Yap</h1>
 
 <div class="row">
@@ -11,9 +12,9 @@
       <%= f.label :passwd, "Şifre" %>
       <%= f.password_field :password, class: 'form-control'%>
      
-     <p> <%= f.submit "Log in", class: "btn btn-primary" %></p>
+     <p> <%= f.submit "Giriş Yap", class: "btn btn-primary" %></p>
     <% end %>
 
-    <p>Kaydiniz yok mu? <%= link_to "Kaydol!", signup_path %></p>
+    <p>Kaydınız yok mu? <%= link_to "Kaydol!", signup_path %></p>
   </div>
 </div>
